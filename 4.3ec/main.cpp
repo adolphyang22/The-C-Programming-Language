@@ -105,7 +105,7 @@ int getop(char s[])
 		{
 			if (c != EOF)
 				ungetch(c);
-			return '-';	/* 负数标志 */
+			return '-';	/* 减号标志 */
 		}
 	}
 	if (isdigit(c))		/* 收集整数部分 */
